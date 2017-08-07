@@ -9,8 +9,8 @@ Install *package*:
 
 Buat *auto* dan *trigger* pada saat *boot*:
 ```bash
-	root@OpenWrt# /etc/init.d/miniupnpd enable
-	root@OpenWrt# /etc/init.d/miniupnpd start
+	root@OpenWrt:~# /etc/init.d/miniupnpd enable
+	root@OpenWrt:~# /etc/init.d/miniupnpd start
 ```
 
 *NAT* type nya langsung *OPEN*:
