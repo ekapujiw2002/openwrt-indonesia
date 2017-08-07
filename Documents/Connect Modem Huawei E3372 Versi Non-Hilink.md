@@ -12,7 +12,7 @@ opkg update; opkg install comgt-ncm kmod-usb-net kmod-usb-net-cdc-ncm kmod-usb-n
 
 2. Tambahkan konfigurasi berikut tanpa menghapus konfigurasi yang sudah ada pada file **/etc/config/network**:
 ```bash
-	vi /etc/config/network
+vi /etc/config/network
 ```
 Isi dengan:
 ```bash
