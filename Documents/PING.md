@@ -13,9 +13,8 @@ fi
 simpan : tekan Esc lalu ketik :wq
 root@OpenWrt:~#
 ```
-
-```bash
 2. root@OpenWrt:~# touch /bin/tester.sh
+```bash
 root@OpenWrt:~#chmod 755 /bin/tester.sh
 root@OpenWrt:~#/etc/init.d/cron stop
 root@OpenWrt:~#echo "*/2 * * * * /bin/tester.sh" >> /etc/crontabs/root
@@ -24,3 +23,10 @@ root@OpenWrt:~# /etc/init.d/cron start
 ```
 
 3. Cek di LuCI
+
+Kontribusi:
+- Terima Kasih kepada [Cindy Wijaya](https://www.facebook.com/openwrtindonesia)
+- Terima Kasih kepada [OpenWrt Indonesia](http://www.facebook.com/groups/openwrt)
+
+Referensi:
+- https://www.facebook.com/notes/openwrt-indonesia/ping/343634722344225/
