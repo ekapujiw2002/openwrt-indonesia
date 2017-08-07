@@ -7,7 +7,7 @@
 Cek cam sudah terdetek apa belum dengan perintah:
 ```bash
 	ls /dev/ (Cari nama video0 dan video1)
-```bash
+```
 
 2. Install package berikut:
 ```bash
