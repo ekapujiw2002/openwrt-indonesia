@@ -12,12 +12,12 @@ Googling ternyata bisa pakai **ssmtp** dengan **mutt**. Supaya ga hilang, saya b
 ```bash
 	opkg update; opkg install ssmtp mutt
 ```
-	ChaosCalmer tidak tersedia package **mutt**. bisa diambil dari package BarrierBreaker atau bisa juga dicompile sendiri.
+ChaosCalmer tidak tersedia package **mutt**. bisa diambil dari package BarrierBreaker atau bisa juga dicompile sendiri.
 2. Konfigurasi **mutt**:
 ```bash
 	nano /root/.muttrc 
 ```
-	Isi dengan konfigurasi berikut:
+Isi dengan konfigurasi berikut:
 ```bash
 set imap_user = 'emailgmailkamu'
 set imap_pass = 'passwordgmailkamu'
@@ -36,13 +36,13 @@ bind editor <space> noop
   macro index gs "<change-folder>=[Gmail]/Sent Mail<enter>" "Go to sent Mail"
   macro index gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to all draf"
 ```
-	Jangan lupa di save dengan command, **Ctrl + X** kemudian tekan **Y** kemudian tekan **Enter**
+Jangan lupa di save dengan command, **Ctrl + X** kemudian tekan **Y** kemudian tekan **Enter**
 
 3. Konfigurasi **ssmtp**:
 ```bash
 	nano /etc/ssmtp/ssmtp.conf
 ```
-	Isi dengan konfigurasi berikut:
+Isi dengan konfigurasi berikut:
 ```bash
 root=emailkamu
 mailhub=smtp.gmail.com:465
@@ -51,12 +51,12 @@ AuthPass=passwordemailkamu
 UseTLS=YES
 FromLineOverride=YES
 ```
-        Jangan lupa di save dengan command, **Ctrl + X** kemudian tekan **Y** kemudian tekan **Enter**
+Jangan lupa di save dengan command, **Ctrl + X** kemudian tekan **Y** kemudian tekan **Enter**
 4. Konfigurasi **revaliases**:
 ```bash
 	nano /etc/ssmtp/revaliases
 ```
-	Tambahkan konfigurasi berikut pada baris terakhir:
+Tambahkan konfigurasi berikut pada baris terakhir:
 ```bash
 	root:emailkamu@gmail.com:smtp.gmail.com:465
 ```
