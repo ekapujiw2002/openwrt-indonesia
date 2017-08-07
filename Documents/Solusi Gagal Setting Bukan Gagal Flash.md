@@ -1,6 +1,6 @@
 # Solusi Gagal Setting Bukan Gagal Flash
 
-Jika terjadi kegagalan pengaturan atau instalasi suatu paket kadang  menyebabkan router tidak dapat diakses baik halaman administrator (http://192.168.1.1) juga melalui console. Kondisi ini dapat diatasi  dengan cara sebagai berikut:
+Jika terjadi kegagalan pengaturan atau instalasi suatu paket kadang  menyebabkan router tidak dapat diakses baik halaman administrator (http://192.168.1.1) juga melalui *console*. Kondisi ini dapat diatasi  dengan cara sebagai berikut:
 1. Matikan dan nyalakan router
 2. Sesaat LED SYS menyala tekan tombol QSS
 3. Kini router telah dapat diakses melalui **telnet**
