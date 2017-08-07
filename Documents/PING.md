@@ -13,8 +13,9 @@ fi
 simpan : tekan Esc lalu ketik :wq
 root@OpenWrt:~#
 ```
-2. root@OpenWrt:~# touch /bin/tester.sh
+2. Setting permissions dan cronjob
 ```bash
+root@OpenWrt:~# touch /bin/tester.sh
 root@OpenWrt:~#chmod 755 /bin/tester.sh
 root@OpenWrt:~#/etc/init.d/cron stop
 root@OpenWrt:~#echo "*/2 * * * * /bin/tester.sh" >> /etc/crontabs/root
