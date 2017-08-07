@@ -20,7 +20,7 @@ berbagai *package* juga dimasukkan ke **mtd5**.
 
 		cat /dev/mtdX > /tmp/factory.bin
 		mtdX disesuaikan dengan mtd yang terdetek pada router yang anda gunakan 
-Perintah diatas akan membuat file baru dengan nama **factory.bin** pada folder **/tmp**. Simpan baik baik *file* tersebut. Untuk *flash* kembali ke router, cukup *flash* sesuai *flash image* standar saja, bisa *upgrade* dari *Web Interface* atau menggunakan WinSCP untuk mengupload image ke folder /tmp dan dieksekusi dengan command:
+4. Perintah diatas akan membuat file baru dengan nama **factory.bin** pada folder **/tmp**. Simpan baik baik *file* tersebut. Untuk *flash* kembali ke router, cukup *flash* sesuai *flash image* standar saja, bisa *upgrade* dari *Web Interface* atau menggunakan WinSCP untuk mengupload image ke folder /tmp dan dieksekusi dengan command:
 
 		cd /tmp && mtd -e firmware -r write factory.bin firmware
 
