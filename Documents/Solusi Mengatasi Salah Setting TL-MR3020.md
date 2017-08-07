@@ -10,14 +10,13 @@
 		* Menyala
 		* Berkedip sekali
 		* Menyala agak lama
-5. Pada saat *LED* mulai berkedip lagi, tekan tombol *reset* maka *LED* akan berkedip dengan cepat, bila **tidak** berarti **gagal** ulangi dari nomor 
-3.
-6. Buka aplikasi **PuTTY** dengan hostname **192.168.1.1** dengan *Connection port* **telnet**. Semestinya sudah tampil OpenWrt, bila tidak ulangi dari 
-nomor 3.
+5. Pada saat *LED* mulai berkedip lagi, tekan tombol *reset* maka *LED* akan berkedip dengan cepat, bila **tidak** berarti **gagal** ulangi dari nomor 3.
+6. Buka aplikasi **PuTTY** dengan hostname **192.168.1.1** dengan *Connection port* **telnet**. Semestinya sudah tampil OpenWrt, bila tidak ulangi dari nomor 3.
 7. Bila sudah berhasil akses OpenWrt dengan **telnet** ketik perintah berikut:
+
 		mount_root
 		firstboot
-8. reboot
+		reboot
 
 Kontribusi:
 - Terima Kasih kepada (Gandhi Wibowo)[https://www.facebook.com/gandhiw3]
