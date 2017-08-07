@@ -39,8 +39,8 @@
     gnokii --deletesms SM 0 end #HAPUS SEMUA SMS
 
 Kontribusi :
-- Terima Kasih kepada [Agustian Romy Ariansyah]https://www.facebook.com/agustianra
-- Terima Kasih kepada [OpenWrt Indonesia]http://www.facebook.com/groups/openwrt
+- Terima Kasih kepada [Agustian Romy Ariansyah](https://www.facebook.com/agustianra) selaku pembuat dokumen ini
+- Terima Kasih kepada [OpenWrt Indonesia](http://www.facebook.com/groups/openwrt)
 
 Referensi :
 - https://www.facebook.com/notes/openwrt-indonesia/share-sms-gateway-dengan-menggunakan-gnokii/528197040554658/
