@@ -4,7 +4,7 @@
 ```bash
 	opkg update; opkg install kmod-video-uvc kmod-video-core
 ```
-Cek cam sudah terdetek apa belum dengan perintah:
+	Cek cam sudah terdetek apa belum dengan perintah:
 ```bash
 	ls /dev/ (Cari nama video0 dan video1)
 ```
