@@ -15,8 +15,21 @@ berbagai *package* juga dimasukkan ke **mtd5**.
 2. Pastikan *firmware* tersimpan pada **mtd** berapa dengan command:
 
 		cat /proc/mtd
+		
 3. Backup dengan command:
 
 		cat /dev/mtdX > /tmp/factory.bin
-		- mtdX disesuaikan dengan mtd yang terdetek pada router yang anda gunakan 
+		mtdX disesuaikan dengan mtd yang terdetek pada router yang anda gunakan 
+Perintah diatas akan membuat file baru dengan nama **factory.bin** pada folder **/tmp**. Simpan baik baik *file* tersebut. Untuk *flash* kembali ke router, cukup *flash* sesuai *flash image* standar saja, bisa *upgrade* dari *Web Interface* atau menggunakan WinSCP untuk mengupload image ke folder /tmp dan dieksekusi dengan command:
 
+		cd /tmp && mtd -e firmware -r write factory.bin firmware
+
+Kontribusi:
+- Terima Kasih kepada [Cindy Wijaya](https://www.facebook.com/openwrtindonesia)
+- Terima Kasih kepada [OpenWrt Indonesia](https://www.facebook.com/groups/openwrt)
+
+Referensi:
+- https://www.facebook.com/notes/openwrt-indonesia/bikin-firmware-sendiri-cara-mudah/343768642330833/
+- http://inranrumani.blogspot.co.id/2011/10/membuat-full-backup-image-openwrt-dari.html
+- https://wiki.openwrt.org/doc/techref/mtd
+- https://wiki.openwrt.org/doc/howto/generic.backup
