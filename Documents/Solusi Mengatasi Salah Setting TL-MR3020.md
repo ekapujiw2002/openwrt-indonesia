@@ -19,8 +19,8 @@
 		reboot
 
 Kontribusi:
-- Terima Kasih kepada (Gandhi Wibowo)[https://www.facebook.com/gandhiw3]
-- Terima Kasih kepada (OpenWrt Indonesia)[https://www.facebook.com/groups/openwrt]
+- Terima Kasih kepada [Gandhi Wibowo](https://www.facebook.com/gandhiw3)
+- Terima Kasih kepada [OpenWrt Indonesia](https://www.facebook.com/groups/openwrt)
 
 Referensi:
 - https://www.facebook.com/notes/openwrt-indonesia/solusi-mengatasi-salah-setting-mr-3020/1469322763108743/
