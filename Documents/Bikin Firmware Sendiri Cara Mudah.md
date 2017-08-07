@@ -13,7 +13,10 @@ berbagai *package* juga dimasukkan ke **mtd5**.
 ## Langkah *backup*
 1. Login router seperti biasa menggunaka protokol SSH
 2. Pastikan *firmware* tersimpan pada **mtd** berapa dengan command:
-			cat /proc/mtd
+
+		cat /proc/mtd
 3. Backup dengan command:
-			cat /dev/mtdX > /tmp/factory.bin
+
+		cat /dev/mtdX > /tmp/factory.bin
+		- mtdX disesuaikan dengan mtd yang terdetek pada router yang anda gunakan 
 
