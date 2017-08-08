@@ -6,11 +6,12 @@
 - USB TO TTL
 
 ## Langkah-langkah:
-1. Konekkan **module** denga **USB TO TTL**
-| USB TO TTL	| MODULE	|
+1. Konekkan **module** denga **USB TO TTL**:
+
+| USB TO TTL    | MODULE        |
 |:-------------:|:-------------:|
-|GND		| GND		|
-|RX		| TX		|
-|TX		| RX		|
-|VCC 		| VCC		|
+|GND	        	| GND		        |
+|RX		          | TX		        |
+|TX		          | RX		        |
+|VCC 		        | VCC		        |
 
