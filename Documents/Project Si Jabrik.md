@@ -1,4 +1,4 @@
-# Project Si Jabrick
+# Project Si Jabrik
 
 ## Module yang digunakan:
 - Voice Recognition V3 http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath=&products_id=2254
