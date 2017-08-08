@@ -34,7 +34,7 @@
 	- untuk bautrate saya lupa waktu baru dapat defaultnya berapa jadi coba coba saja jika 9600 gagal ganti 2400,4800,19200,38400 untuk device sesuaikan dengan **USB TO TTL** 
 7. Cobalah dengan ketik **jabrik clear**. jika Clr OK berarti sambungan sudah bagus.
 8. Buka lagi file **jabrik.conf** edit dengan mengikuti contoh yang ada dan sedikit keterangn mudah-mudahan bisa dipahami wkwkwk
-9. Jalankan jabrik dengan ketik **jabrik** run silahkan kreasikan sesuai keinginan dengan edit file confignya
+9. Jalankan **jabrik** dengan ketik **jabrik** run silahkan kreasikan sesuai keinginan dengan edit file confignya
 
 **NOTE**:
 - Untuk memulai voice recognition harus diisi suara terlebih dahulu dengan perintah **jabrik sigtrain [index] text**
