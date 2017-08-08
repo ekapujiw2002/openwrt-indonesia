@@ -39,6 +39,7 @@
 **NOTE**:
 - Untuk memulai voice recognition harus diisi suara terlebih dahulu dengan perintah jabrik sigtrain [index] text
   contoh **jabrik sigtrain 0 JABRIK**
+  
   0 disini adalah indek penyimpanan dimulai dari 0 - 80
 
 - jika butuh info lebih mendalam coba lihat datasheet modul **voice regocnition** karena saya sendiri baru memahami modul tersebut wkwkwk
