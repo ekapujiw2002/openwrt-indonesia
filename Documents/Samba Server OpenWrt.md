@@ -80,8 +80,8 @@ config 'sambashare'
 **NOTE**:
 - Jika drive yang akan kita akses berformat "ntfs", maka kita harus menambahkan command berikut pada "putty" agar bisa full akses (baca,tulis, hapus)
 ```bash
-		umount /dev/sdx*
-		ntfs-3g /dev/sdx* /mnt/sdb*
+	umount /dev/sdx*
+	ntfs-3g /dev/sdx* /mnt/sdb*
 ```
 
 **KETERANGAN**:
