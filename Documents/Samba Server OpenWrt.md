@@ -86,8 +86,8 @@ exit 0
 
 **KETERANGAN**:
 
-x = ganti sesuai dengan terdeteksinya drive kita, misal "sdb","sdc","sdd" dst.
-* =  jika partisi drive "ntfs" lebih dari 1, maka lakukan langkah di atas sebanyak jumlah partisi. tanda "*"(bintang) diganti dengan jumlah partisi
+"x" = ganti sesuai dengan terdeteksinya drive kita, misal "sdb","sdc","sdd" dst.
+"*" = jika partisi drive "ntfs" lebih dari 1, maka lakukan langkah di atas sebanyak jumlah partisi. tanda "*"(bintang) diganti dengan jumlah partisi
 
 Restart router
 
