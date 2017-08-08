@@ -66,28 +66,27 @@ config 'sambashare'
 
 4. Tambahkan baris berikut pada file **/etc/rc.local**:
 ```bash
-smbd -D
-nmbd -D
- 
-exit 0
+	smbd -D
+	nmbd -D
+	exit 0
 ```
 
 5. Ketik perintah berikut pada **PuTTY**:
 ```bash
-/etc/init.d/samba enable
-/etc/init.d/samba start
+	/etc/init.d/samba enable
+	/etc/init.d/samba start
 ```
 
 **NOTE**:
-- Jika drive yg akan kita akses berformat "ntfs", maka kita harus menambahkan command berikut pada "putty" agar bisa full akses (baca,tulis, hapus)
+- Jika drive yang akan kita akses berformat "ntfs", maka kita harus menambahkan command berikut pada "putty" agar bisa full akses (baca,tulis, hapus)
+``bash
 		umount /dev/sdx*
 		ntfs-3g /dev/sdx* /mnt/sdb*
-
+``
 
 **KETERANGAN**:
 ```bash
 sdx = ganti sesuai dengan terdeteksinya drive kita, misal "sdb","sdc","sdd" dst.
-
 sdx* = jika partisi drive "ntfs" lebih dari 1, maka lakukan langkah di atas sebanyak jumlah partisi. tanda "*"(bintang) diganti dengan jumlah partisi
 ```
 **Restart router**
