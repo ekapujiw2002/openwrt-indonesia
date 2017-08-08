@@ -33,3 +33,7 @@
 
 Referensi:
 - [OpeWrt Indonesia](https://www.facebook.com/groups/openwrt)
+- https://lede-project.org/
+- https://openwrt.org/
+- https://forum.lede-project.org/
+- https://forum.openwrt.org
