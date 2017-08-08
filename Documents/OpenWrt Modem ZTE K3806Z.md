@@ -2,8 +2,7 @@
 
 ## Install Package:
 ```bash
-   opkg update; opkg install chat comgt kmod-nls-base kmod-usb-core kmod-usb-ohci kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb-serial 
-kmod-usb-uhci kmod-usb2 libpthread librt libusb-1.0 luci-proto-3g  usb-modeswitch luci kmod-usb-acm kmod-usb-atm
+opkg update; opkg install chat comgt kmod-nls-base kmod-usb-core kmod-usb-ohci kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb-serial kmod-usb-uhci kmod-usb2 libpthread librt libusb-1.0 luci-proto-3g  usb-modeswitch luci kmod-usb-acm kmod-usb-atm
 ```
 
 ## Buat Interface baru via LuCI biar mudah:
