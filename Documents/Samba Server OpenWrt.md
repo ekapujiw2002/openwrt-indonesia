@@ -66,22 +66,22 @@ config 'sambashare'
 
 4. Tambahkan baris berikut pada file **/etc/rc.local**:
 ```bash
-	smbd -D
-	nmbd -D
-	exit 0
+    smbd -D
+    nmbd -D
+    exit 0
 ```
 
 5. Ketik perintah berikut pada **PuTTY**:
 ```bash
-	/etc/init.d/samba enable
-	/etc/init.d/samba start
+    /etc/init.d/samba enable
+    /etc/init.d/samba start
 ```
 
 **NOTE**:
 - Jika drive yang akan kita akses berformat "ntfs", maka kita harus menambahkan command berikut pada "putty" agar bisa full akses (baca,tulis, hapus)
 ```bash
-	umount /dev/sdx*
-	ntfs-3g /dev/sdx* /mnt/sdb*
+    umount /dev/sdx*
+    ntfs-3g /dev/sdx* /mnt/sdb*
 ```
 
 **KETERANGAN**:
@@ -92,8 +92,9 @@ sdx* = jika partisi drive "ntfs" lebih dari 1, maka lakukan langkah di atas seba
 **Restart router**
 
 6. Pada Windows XP/7 masuk ke RUN ketik "cmd" ,lalu ENTER, ketik perintah :
-		net use S: \\192.168.1.1\samba
-
+```bash
+    net use S: \\192.168.1.1\samba
+```
 FINISH!!!
 Silahkan akses di "COMPUTER(Win7)/MY COMPUTER(Windows XP)"
 
