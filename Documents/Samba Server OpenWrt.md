@@ -1,9 +1,9 @@
 # Samba Server OpenWrt
 
 ## Package yang dibutuhkan:
-	- luci-app-samba
-	- samba36-server
-	- ntfs-3g
+	 luci-app-samba
+	 samba36-server
+	 ntfs-3g
 
 ## Langkah-langkah:
 1. Edit **/etc/config/firewall** dengan menambahkan baris sebagai berikut:
@@ -83,7 +83,9 @@ exit 0
 		umount /dev/sdx*
 		ntfs-3g /dev/sdx* /mnt/sdb*
 
-**KETERANGAN:
+
+**KETERANGAN**:
+
 x = ganti sesuai dengan terdeteksinya drive kita, misal "sdb","sdc","sdd" dst.
 * =  jika partisi drive "ntfs" lebih dari 1, maka lakukan langkah di atas sebanyak jumlah partisi. tanda "*"(bintang) diganti dengan jumlah partisi
 
