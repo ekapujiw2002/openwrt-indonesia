@@ -37,7 +37,7 @@
 9. Jalankan jabrik dengan ketik **jabrik** run silahkan kreasikan sesuai keinginan dengan edit file confignya
 
 **NOTE**:
-- Untuk memulai voice recognition harus diisi suara terlebih dahulu dengan perintah jabrik sigtrain [index] text
+- Untuk memulai voice recognition harus diisi suara terlebih dahulu dengan perintah **jabrik sigtrain [index] text**
   contoh **jabrik sigtrain 0 JABRIK**
   
   0 disini adalah indek penyimpanan dimulai dari 0 - 80
