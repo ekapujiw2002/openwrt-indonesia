@@ -85,18 +85,18 @@ exit 0
 
 
 **KETERANGAN**:
-
+```bash
 sdx = ganti sesuai dengan terdeteksinya drive kita, misal "sdb","sdc","sdd" dst.
 
 sdx* = jika partisi drive "ntfs" lebih dari 1, maka lakukan langkah di atas sebanyak jumlah partisi. tanda "*"(bintang) diganti dengan jumlah partisi
-
-Restart router
+```
+**Restart router**
 
 6. Pada Windows XP/7 masuk ke RUN ketik "cmd" ,lalu ENTER, ketik perintah :
 		net use S: \\192.168.1.1\samba
 
 FINISH!!!
-Silahkan akses di "COMPUTER(win7)/MY COMPUTER(Windows XP)"
+Silahkan akses di "COMPUTER(Win7)/MY COMPUTER(Windows XP)"
 
 Kontribusi:
 - Terima Kasih kepada [Tisaros Obengkumana](https://www.facebook.com/tisaros.obengkumana)
