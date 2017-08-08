@@ -25,8 +25,6 @@ ser2net
 </p>
 
 ## Akses dengan PuTTY atau sejenisnya:
-
-Akses dengan putty atau sejenisnya:
 - Hostname        : IP_VPN
 - Connection type : RAW
 - Port            : 1234
