@@ -42,7 +42,7 @@
   
   0 disini adalah indek penyimpanan dimulai dari 0 - 80
 
-- jika butuh info lebih mendalam coba lihat datasheet modul **voice regocnition** karena saya sendiri baru memahami modul tersebut wkwkwk
+- Jika butuh info lebih mendalam coba lihat datasheet modul **voice regocnition** karena saya sendiri baru memahami modul tersebut wkwkwk
 
 Video si Jabrik: https://www.youtube.com/watch?v=5absoDlwUF0
 
