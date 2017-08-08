@@ -39,7 +39,7 @@ config rule
     obey pam restrictions = yes
     socket options = TCP_NODELAY
     unix charset = ISO-8859-1
-        local master = yes
+    local master = yes
     preferred master = yes
     os level = 20
     security = share
